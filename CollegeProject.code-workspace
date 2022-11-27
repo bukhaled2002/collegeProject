@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "CollegeProject",
+		"path": "."
+	},
+	{
+		"name": "webfonts",
+		"path": "../template-4/webfonts"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CollegeProject"
+  }
+}
