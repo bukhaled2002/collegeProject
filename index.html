@@ -24,13 +24,13 @@
         </div>
         <div class="navigate">
           <ul class="links">
-            <li class="active"><a href=".Home">Home</a></li>
-            <li><a href=".About">About</a></li>
-            <li><a href=".Services">Services</a></li>
-            <li><a href=".Categories">Categories</a></li>
-            <li><a href=".Pages">Pages</a></li>
-            <li><a href=".Blog">Blog</a></li>
-            <li><a href=".Contact">Contact</a></li>
+            <li class="active"><a href=".Home" data-nav="landing">Home</a></li>
+            <li><a href=".About" data-nav="about">About</a></li>
+            <li><a href=".Services" data-nav="services">Services</a></li>
+            <li><a href=".Categories" data-nav="features">Categories</a></li>
+            <li><a href=".Pages" data-nav="pages">Pages</a></li>
+            <li><a href=".Blog" data-nav="blog">Blog</a></li>
+            <li><a href=".Contact" data-nav="contact">Contact</a></li>
           </ul>
           <div class="icons">
             <div class="show-icon">
@@ -38,13 +38,13 @@
             </div>
 
             <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping shopping"><span>0</span></i>
           </div>
         </div>
       </div>
     </header>
     <!-- start landing -->
-    <div class="landing">
+    <div class="landing" data-nav="home">
       <div class="content">
         <div class="text-info">
           <h3>
@@ -75,7 +75,7 @@
     </div>
     <!-- end landing -->
     <!-- start Categories -->
-    <div class="categories">
+    <div class="categories" data-nav="categories">
       <div class="special-heading">
         <h3>Featured Caregories</h3>
         <p>
@@ -110,7 +110,7 @@
     </div>
     <!-- end categories-->
     <!-- start services -->
-    <div class="services">
+    <div class="services" data-nav="services">
       <div class="special-heading">
         <h3>What our spiz services</h3>
         <p>
@@ -151,7 +151,7 @@
     </div>
     <!-- end Services -->
     <!-- start featrues -->
-    <div class="features">
+    <div class="features" data-nav="features">
       <div class="special-heading">
         <h3>Featured Categories</h3>
         <p>
@@ -355,6 +355,13 @@
         </div>
       </div>
     </div>
+    <!-- Cart  -->
+    <div class="cart">
+      <h3 class="title">Your Purchaces</h3>
+      <ul></ul>
+    </div>
+    <!-- Cart  -->
+    <script src="main/main.js"></script>
     <!-- end featrues -->
   </body>
 </html>
